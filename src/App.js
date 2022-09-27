@@ -1,11 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import Animation  from './Components/23sept/Animation';
-import { motion } from 'framer-motion'
+import logo from "./logo.svg";
+import "./App.css";
+import ToDoList from "./Components/ToDoList";
+
 function App() {
+
   return (
-    <div >
-     <Animation></Animation>
+    <div className="App">
+        <ToDoList></ToDoList>
     </div>
   );
 }

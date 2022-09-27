@@ -1,0 +1,20 @@
+.main-div{
+    /* background-color: rgb(255, 47, 0); */
+    height: 200px;
+    width:200px;
+    margin-left: 200px;
+    
+}
+.center-div{
+    background-color: rgb(224, 217, 217);
+    border-radius: 20px;
+    border: solid 2px rgb(171, 159, 159);
+    width: 450px;
+}
+/* 
+.addBtn{
+    background-color: green;
+} */
+
+
+
