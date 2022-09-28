@@ -1,14 +1,22 @@
-import logo from "./logo.svg";
-import "./App.css";
-import ToDoList from "./Components/ToDoList";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Error from "./Error";
+import Home from "./Home";
+import SingleMovie from "./SingleMovie";
+import './App.css'
 
-function App() {
-
+const App = () => {
   return (
-    <div className="App">
-        <ToDoList></ToDoList>
-    </div>
+    <>
+     
+        <Routes>
+          <Route path="/" element={<Home></Home>} />
+          <Route path="/movie/:id" element={<SingleMovie />} />
+          <Route path="*" element={<Error></Error>} />
+        </Routes>
+     
+    </>
   );
-}
+};
 
 export default App;
