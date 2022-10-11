@@ -1,38 +1,28 @@
-import React from "react";
-import Homecomp from "./Components/Home";
-import styled from 'styled-components'
+import logo from './logo.svg';
+import './App.css';
+import Header from './Components/Header';
+import Home from './Components/Home';
+import Experience from './Components/Experiance';
+import Projects from './Components/Projects';
+import Footer from './Components/Footer';
+import { Route, Routes } from 'react-router-dom';
+import Contact from './Components/Contact';
 
-
-const Container = styled.div`
-  background-color: aqua;
-  color: #0d1d2c;
-  display: flex;
-  flex-direction: column;
-  margin: 0 10px;
-  align-items: center;
-  height: 100vh;
-  width: 98%;
-  padding-top: 30px ;
-  font-family: Montserrat;
-`;
-
-const Header = styled.div`
-  background-color: white;
-  color: #0d1d2c;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 22px;
-  font-size: 25px;
-  font-weight: bold;
-`;
-const App = () => {
+function App() {
   return (
-    <Container>
-      <Header>Expense Tracker</Header>
-      <Homecomp></Homecomp>
-    </Container>
+    <>
+   
+  {/* <Home></Home> */}
+  <Routes>
+        <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/contact" element={<Contact></Contact>}></Route>
+        <Route path="/project" element={<Projects></Projects>}></Route>
+        <Route path='/Experiance' element={<Experience></Experience>}></Route>
+    </Routes>
+
+     
+    </>
   );
-};
+}
 
 export default App;
