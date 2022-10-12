@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Welcome to Thapa Technical React Ecommerce Website Series
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Follow the 3 Steps and you are good to go. 
 
-## Available Scripts
+1: Clone the Project 
 
-In the project directory, you can run:
+2: simply run the command    `npm install`  - First to install all the packages
+   
+3: run the project using   `npm start`
+   
+   ------------ 
+   
+###  To get the source code guy's please check the `Switch branches/tags` and select the respective video branch for the source code ok.. 
 
-### `npm start`
+### Also I am creating a List of the video with the Link to the respective video code, you can checkout below 👇  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+------------ 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Main Starter Files of React Ecom Source Code](https://github.com/thapatechnical/thapareactecom/blob/main/README.md)
 
-### `npm test`
+- [Till Video 6 Source Code - Responsive Navbar](https://github.com/thapatechnical/thapareactecom/tree/react_ecom_navbar_v6) 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Video 7 Source Code - Hero Section, Home & About Page](https://github.com/thapatechnical/thapareactecom/blob/react_ecom_HomeAboutPage_v7/src/components/HeroSection.js) 
 
-### `npm run build`
+- [Video 8 Source Code - Services & Trusted Section](https://github.com/thapatechnical/thapareactecom/tree/service_trusted_sec_v8) 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Video 9 Source Code - Contact Page with Email](https://github.com/thapatechnical/thapareactecom/tree/ecom_contact_v9)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Video 10 Source Code - Footer Component](https://github.com/thapatechnical/thapareactecom/tree/ecom_footer_v10)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Video 11 Source Code - 404 Error Page ](https://github.com/thapatechnical/thapareactecom/tree/ecom_errorpage_v11)
 
-### `npm run eject`
+- [Video 12 Source Code - Context API ](https://github.com/thapatechnical/thapareactecom/tree/ecom_productContext_v12)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Video 13 Source Code - Fech API data with Axios ](https://github.com/thapatechnical/thapareactecom/tree/ecom_apiAxious_v13)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Video 14 Source Code - useReducer Hook for State mang. ](https://github.com/thapatechnical/thapareactecom/tree/ecom_productReducer_v14)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [Video 15 Source Code - Feature Section Of Home Page ](https://github.com/thapatechnical/thapareactecom/tree/ecom_featureSec_v15)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [Video 16 Source Code - Format Price Indian Currency ](https://github.com/thapatechnical/thapareactecom/tree/ecom_formatPrice_v16)
 
-## Learn More
+- [Video 17th & 18th Source Code - Single Product Page with API  ](https://github.com/thapatechnical/thapareactecom/tree/ecom_singleProduct_Context_v17)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Video 19 Source Code - Page Navigation & UI Part  ](https://github.com/thapatechnical/thapareactecom/tree/ecom_pagenavigation_v19)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
